@@ -1,13 +1,8 @@
 import React from "react";
 
-function Footer({ length }) {
-  return (
-    <footer>
-      <p>
-        {length} List {length === 1 ? "item" : "items"}
-      </p>
-    </footer>
-  );
+function Footer() {
+  const date = new Date();
+  return <footer>Copyright &copy; {date.getFullYear()}</footer>;
 }
 
 export default Footer;
