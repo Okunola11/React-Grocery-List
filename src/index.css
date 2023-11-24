@@ -141,6 +141,14 @@ ul li::before {
   margin-right: 0.25rem;
   outline: none;
 }
+
+.addButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
 button {
   height: 48px;
   min-width: 48px;
