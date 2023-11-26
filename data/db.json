@@ -1,24 +1,14 @@
 {
   "items": [
     {
+      "id": 1,
+      "checked": true,
+      "item": "Pizza"
+    },
+    {
       "id": 2,
-      "checked": false,
-      "item": "pizza"
-    },
-    {
-      "id": 3,
-      "checked": false,
-      "item": "bread"
-    },
-    {
-      "id": 4,
-      "checked": false,
-      "item": "cookies"
-    },
-    {
-      "id": 5,
-      "checked": false,
-      "item": "Gala"
+      "checked": true,
+      "item": "rice"
     }
   ]
 }

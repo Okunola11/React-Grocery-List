@@ -10,9 +10,9 @@ const Home = () => {
     useContext(DataContext);
   return (
     <main>
-      <Link to="add">
+      {/*  <Link to="add">
         <button className="addButton">ADD</button>
-      </Link>
+      </Link> */}
       <SearchItem />
       {isLoading && <p>Loading Items...</p>}
       {fetchError && <p style={{ color: "red" }}>{`Error: ${fetchError}`}</p>}

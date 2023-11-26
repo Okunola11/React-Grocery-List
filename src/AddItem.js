@@ -71,9 +71,6 @@ const AddItem = () => {
         </button>
       </form>
       <main>
-        <Link to="/">
-          <button className="addButton">HOME</button>
-        </Link>
         <SearchItem />
         {isLoading && <p>Loading Items...</p>}
         {fetchError && <p style={{ color: "red" }}>{`Error: ${fetchError}`}</p>}

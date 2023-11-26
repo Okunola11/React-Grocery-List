@@ -72,6 +72,7 @@ export const DataProvider = ({ children }) => {
         handleCheck,
         handleDelete,
         items,
+        setItems,
         API_URL,
       }}
     >
