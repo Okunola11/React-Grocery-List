@@ -4,11 +4,17 @@ import { useContext } from "react";
 import DataContext from "./Context/DataContext";
 
 export const CheckedItem = () => {
-  const { items, handleDelete } = useContext(DataContext);
-  const data = items.filter((item) => item.checked === true);
+  const { items } = useContext(DataContext);
+
   return (
-    <ul>
-      <li>{data.item}</li>
-    </ul>
+    <>
+      {items.map((item) =>
+        item.checked === true ? (
+          <Checked item={item} key={item.id} />
+        ) : (
+          <p> You have no Checked items</p>
+        )
+      )}
+    </>
   );
 };
