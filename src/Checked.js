@@ -1,12 +1,8 @@
 import React from "react";
 import { FaTrashAlt } from "react-icons/fa";
 
-const Checked = ({ item, key }) => {
-  return (
-    <ul key={key}>
-      <li>{JSON.stringify(item.item)}</li>
-    </ul>
-  );
+const Checked = ({ item }) => {
+  return <li>{item.item}</li>;
 };
 
 export default Checked;
